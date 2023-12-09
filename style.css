@@ -1,0 +1,134 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header{
+  /*display: flex;*/
+  background-color: blue;
+  color: white;
+  width: auto;
+  height: 100px;
+}
+nav{
+  display: flex;
+  list-style-type: none;
+  color: white;
+  /*float: right;*/
+  margin: 20px;
+  margin-top: 0px;
+}
+nav{
+  /*margin-top: 20px;*/
+  padding-top: 20px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  margin-left: 60%;
+}
+ul li{
+  margin: 20px;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+.logo{
+  font-size: 30px;
+}
+.hero{
+  height: 400px;
+  background: #0BA0E5;
+  align-items: center;
+  
+}
+.herochild{
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.hero h2{
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  /*padding-top: 60px;*/
+}
+.hero p{
+  font-size: 30px;
+  color: white;
+  line-height: 100px;
+}
+.hero a{
+  background: white;
+  color: black;
+  padding: 15px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.feature{
+  display: flex;
+  height: 450px;
+  width: auto;
+}
+.card{
+  height: 150px;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+  /*padding-top: 80px;
+  padding-left: 100px;*/
+  background: whitesmoke;
+  margin-top: 130px;
+  margin-left: 100px;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  line-height: 30px;
+}
+.about{
+  height: 450px;
+  width: auto;
+  text-align: center;
+  background: whitesmoke;
+}
+.about h2{
+  font-size: 45px;
+  text-align: center;
+  line-height: 100px;
+  padding-top: 120px;
+}
+.contact{
+  height: 450px;
+  width: auto;
+  text-align: center;
+}
+.contact h2{
+  font-size: 45px;
+  line-height: 100px;
+  padding-top: 120px;
+}
+#text{
+  width: 80%;
+  height: 30px;
+}
+#mail{
+  width: 80%;
+  height: 30px;
+}
+.contact a{
+  background: whitesmoke;
+  color: black;
+  padding: 15px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border-radius: 8px;
+  line-height: 80px;
+  
+}
